@@ -18,7 +18,7 @@ before_script:
         - docker-compose up -d --build
 
 script:
-        - docker-compose run users-service python manage.py test
+        - sh test.sh
 
 after_script:
         - docker-compose down
