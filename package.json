@@ -1,0 +1,26 @@
+{
+  "name": "flask-microservices-main",
+  "version": "1.0.0",
+  "description": "Personal Blog system manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanberry/myblog-main.git"
+  },
+  "keywords": [
+    "Blog",
+    "Manager"
+  ],
+  "author": "ivanberry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ivanberry/myblog-main/issues"
+  },
+  "homepage": "https://github.com/ivanberry/myblog-main#readme",
+  "dependencies": {
+    "testcafe": "^0.16.2"
+  }
+}
