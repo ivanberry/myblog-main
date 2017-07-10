@@ -77,7 +77,7 @@ services:
                         context: ../flask-microservices-swagger
                 ports:
                         - '8080:8080' #expose ports - HOST:CONTAINER
-                enviroment:
+                environment:
                         - API_URL=https://raw.githubusercontent.com/ivanberry/flask-microservices-swagger/master/swagger.json
                 depends_on:
                         users-service:
