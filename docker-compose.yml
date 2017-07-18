@@ -41,7 +41,7 @@ services:
                 build: ./nginx/
                 restart: always
                 ports:
-                        - 8060:80
+                        - 80:80
                 depends_on:
                         users-service:
                                 condition: service_started
@@ -74,7 +74,7 @@ services:
         swagger:
                 container_name: swagger
                 build:
-                        context: ../flask-microservices-swagger
+                        context: https://github.com/ivanberry/flask-microservices-swagger.git
                 ports:
                         - '8080:8080' #expose ports - HOST:CONTAINER
                 environment:
